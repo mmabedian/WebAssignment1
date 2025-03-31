@@ -1,0 +1,49 @@
+body {
+    direction: rtl;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "B Yekan", serif;
+}
+
+.input-group, .formula-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+    font-family: "B Yekan", serif;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: "B Yekan", serif;
+}
+
+formula {
+    display: block;
+    padding: 8px;
+    background-color: #f0f0f0;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}

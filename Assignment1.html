@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Assignment 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <h2>تمرین اول درس برنامه سازی وب</h2>
+    <div class="input-group">
+        <label>قیمت واحد:</label>
+        <input type="text" id="fee" placeholder="قیمت واحد">
+    </div>
+    <div class="input-group">
+        <label>تعداد:</label>
+        <input type="text" id="count" placeholder="تعداد">
+    </div>
+    <div class="input-group">
+        <label>تخفیف:</label>
+        <input type="text" id="discount" placeholder="تخفیف">
+    </div>
+    <div class="formula-group">
+        <label>فرمول ۱:</label>
+        <formula evaluator="count * fee - discount">0</formula>
+    </div>
+    <div class="input-group">
+        <label>شعاع دایره:</label>
+        <input type="text" id="radius" placeholder="شعاع دایره">
+    </div>
+    <div class="formula-group">
+        <label>مساحت دایره:</label>
+        <formula evaluator="3.14159 * radius * radius">0</formula>
+    </div>
+    <div class="formula-group">
+        <label>محیط دایره:</label>
+        <formula evaluator="2 * 3.14159 * radius">0</formula>
+    </div>
+    <div class="input-group">
+        <label>نیم‌قطر بزرگ:</label>
+        <input type="text" id="major_radius" placeholder="نیم‌قطر بزرگ">
+    </div>
+    <div class="input-group">
+        <label>نیم‌قطر کوچک:</label>
+        <input type="text" id="minor_radius" placeholder="نیم‌قطر کوچک">
+    </div>
+    <div class="formula-group">
+        <label>مساحت بیضی:</label>
+        <formula evaluator="3.14159 * major_radius * minor_radius">0</formula>
+    </div>
+</div>
+</body>
+</html>
